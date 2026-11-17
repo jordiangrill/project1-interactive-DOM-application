@@ -1,0 +1,85 @@
+#start-screen h1 {
+  text-align: center;
+  text-decoration-line: underline;
+  text-underline-offset: 10px;
+}
+
+#game-preview {
+  display: flex;
+  justify-content: center;
+  padding: 10px 10px;
+}
+
+#game-preview img {
+  width: 50%;
+}
+
+#play-button {
+  display: flex;
+  justify-content: center;
+}
+
+#play-button button {
+  background-color: green;
+  color: white;
+  border-radius: 50%;
+  font-size: 2rem;
+  padding: 20px 60px;
+}
+
+#track img {
+  display: flex;
+  justify-content: center;
+  padding: 10px 10px;
+  width: 100%;
+}
+
+#player {
+  position: absolute;
+  width: 15%;
+  left: 45%;
+  top: 112%;
+}
+
+#rivals img {
+  position: absolute;
+  width: 16%;
+  left: 30%;
+  top: 70%;
+}
+
+#battery {
+  position: absolute;
+  width: 10%;
+  left: 70%;
+  top: 55%;
+}
+
+#oil {
+  position: absolute;
+  width: 10%;
+  left: 25%;
+  top: 90%;
+}
+
+#result {
+  text-align: center;
+}
+
+#play-again {
+  display: flex;
+  justify-content: center;
+}
+
+#result img {
+  width: 50%;
+  margin: 20px;
+}
+
+#play-again button {
+  background-color: blue;
+  color: white;
+  border-radius: 50%;
+  font-size: 2rem;
+  padding: 20px 60px;
+}

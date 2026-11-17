@@ -5,21 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>F1 game</title>
-    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
 
   <body>
     <!--Start Screen-->
     <div id="start-screen">
-      <h1>Start your engines!</h1>
+      <h1>Welcome to my first F1 game!</h1>
 
       <section>
         <div id="game-preview">
-          <img src="Images/Antonelli.png" />
+          <img src="Images/grid.png" />
         </div>
 
         <div id="play-button">
-          <button>Race</button>
+          <button>Race start</button>
         </div>
       </section>
     </div>
@@ -27,15 +27,20 @@
     <!--Game Area-->
     <div id="game-area">
       <div id="track">
+        <img src="Images/track.png" alt="Race track" />
+
         <!--- race track-->
       </div>
-      <div id="player">
-        <!---Antonelli img-->
+      <div>
+        <img id="player" src="Images/Antonelli.png" alt="Antonelli car" />
       </div>
       <div id="rivals">
+        <img src="Images/Hamilton.png" alt="Hamilton car" />
         <!---opponents imgs (21 drivers or 11 teams?)-->
       </div>
       <div id="track-elements">
+        <img id="battery" src="Images/battery.png" alt="F1 battery" />
+        <img id="oil" src="Images/Oil.png" alt="Oil engine" />
         <!--batteries and oil slicks or puddles-->
       </div>
       <div id="score">
@@ -46,11 +51,10 @@
     <!--Finish game-->
     <div id="finish-game">
       <div id="result">
-        <!---message about the result-->
-        <p>You finished in X position!</p>
+        <h1>You finished in X position!</h1>
+        <img src="Images/finish.png" alt="Finish line" />
       </div>
       <div id="play-again">
-        <!--race again-->
         <button>Try again!</button>
       </div>
     </div>

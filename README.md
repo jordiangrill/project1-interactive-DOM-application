@@ -11,3 +11,20 @@ State tracking (score, answers, data)
 Follow KISS and DRY principles
 
 Define MVP (Minimum viable product)
+
+Colition with only opponents
+
+Bonus
+
+Puddles, oil sticks
+Car selection
+
+Plan
+
+Build the 3 scenarios on html
+
+Give them all the CSS properties
+
+Aplly Javascript
+
+DOM manipulation
