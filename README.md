@@ -12,7 +12,7 @@ Follow KISS and DRY principles
 
 Define MVP (Minimum viable product)
 
-Colition with only opponents
+Collition with only opponents
 
 Bonus
 
@@ -25,6 +25,6 @@ Build the 3 scenarios on html
 
 Give them all the CSS properties
 
-Aplly Javascript
+Apply Javascript
 
 DOM manipulation
