@@ -40,14 +40,14 @@
 
 #player {
   position: absolute;
-  width: 14%;
+  width: 10%;
   left: 43%;
   bottom: 0px;
 }
 
 #rivals {
   position: absolute;
-  width: 16%;
+  width: 9%;
   left: 16%;
   top: 0;
 }
