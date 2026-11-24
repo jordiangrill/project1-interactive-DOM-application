@@ -7,13 +7,14 @@ let finishGame = document.getElementById("finish-game");
 
 finishGame.classList.add("hidden");
 
-let button = document.getElementById("play-button");
+let startButton = document.getElementById("start-button");
+startButton.addEventListener("click", startGame);
 
 let opponentsInterval;
 let debrisInterval;
 let batteryInterval;
 
-button.onclick = function () {
+function startGame() {
   let startScreen = document.getElementById("start-screen");
 
   startScreen.classList.add("hidden");
@@ -26,7 +27,7 @@ button.onclick = function () {
   opponentsInterval = setInterval(moveOpponents, 1);
   debrisInterval = setInterval(moveDebris, 1);
   batteryInterval = setInterval(moveBattery, 1);
-};
+}
 
 function randomStart(min, max) {
   return min + Math.random() * (max - min);
@@ -110,3 +111,18 @@ function endGame() {
 }
 
 // finish screen
+let restartButton = document.getElementById("restart-button");
+
+function newRace() {
+  gameScreen.classList.remove("hidden");
+  finishGame.classList.add("hidden");
+  collisionDetected = false;
+  playerLeftPosition = 43;
+  player.style.left = playerLeftPosition + "%";
+  opponentsPosition = 0;
+  oilPosition = 0;
+  batteryPosition = 0;
+  startGame();
+}
+
+restartButton.addEventListener("click", newRace);

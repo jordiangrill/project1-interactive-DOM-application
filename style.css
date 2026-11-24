@@ -19,7 +19,7 @@
   justify-content: center;
 }
 
-#play-button button {
+#start-button {
   background-color: green;
   color: white;
   border-radius: 50%;
@@ -80,7 +80,7 @@
   margin: 20px;
 }
 
-#play-again button {
+#restart-button {
   background-color: blue;
   color: white;
   border-radius: 50%;

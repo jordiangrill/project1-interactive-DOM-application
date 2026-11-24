@@ -28,3 +28,10 @@ Give them all the CSS properties
 Apply Javascript
 
 DOM manipulation
+
+
+//
+
+MVP reached
+
+Next goal: polish the art design, get some slides and work on the objects' dynamics.
