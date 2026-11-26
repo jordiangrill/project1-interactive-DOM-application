@@ -27,6 +27,10 @@
     <!--Game Area-->
     <div id="game-area">
       <div id="track">
+        <div id="race-status" aria-live="polite">
+          <span id="race-position">P20/20</span>
+          <span id="race-speed">Speed 50 km/h</span>
+        </div>
         <img id="road" src="Images/track.png" alt="Race track" />
         <img id="player" src="Images/Antonelli.png" alt="Antonelli car" />
         <img id="rivals" src="Images/Hamilton.png" alt="Hamilton car" />
@@ -40,13 +44,20 @@
     <!--Finish game-->
     <div id="finish-game">
       <div id="result">
-        <h1>You finished in X position!</h1>
+        <h1 id="result-message">Race over!</h1>
         <img src="Images/finish.png" alt="Finish line" />
       </div>
       <div id="play-again">
         <button id="restart-button">Try again!</button>
       </div>
     </div>
+
+    <audio
+      id="race-audio"
+      src="./Audio/driving-to-the-night.ogg"
+      loop
+      preload="auto"
+    ></audio>
 
     <script src="./javascript.js"></script>
   </body>

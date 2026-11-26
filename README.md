@@ -1,37 +1,21 @@
 # project1-interactive-DOM-application
 
-It will be a car racing game. The goal is to reach the finish line avoiding obstacles and 
-getting some boosts along the way. The faster you go, the better the score. 
+Racing game made with HTML, CSS, Javascript and DOM manipulation. 
 
-Must include
-User input (form, button, event)
-UI feedback (alerts, DOM updates, class toggling)
-State tracking (score, answers, data)
+It includes user input, UI feedback and state tracking. Also a bit of KISS and DRY. 
 
-Follow KISS and DRY principles
+The MVP was to achieve our car racing and being able to collide with our main rival. 
 
-Define MVP (Minimum viable product)
+Extras:
 
-Collition with only opponents
+Debries on track (oil and batteries)
+The random spawn of the three objects
+The speed mecanics and interactions between the player, the track and the objects
+Audio
 
-Bonus
+AI helped with creative design ideas. For the code it was used as a teacher guiding a novice programmer with hints. At least up until the MVP. If I was stuck I would ask for a little more help but never with direct code.
+After reaching the MVP, I needed a bit more help to think and implement the more complex dynamics to make the game more interesting with its random spawns, velocity interaction, etc. 
 
-Puddles, oil sticks
-Car selection
+## Audio copyrights
 
-Plan
-
-Build the 3 scenarios on html
-
-Give them all the CSS properties
-
-Apply Javascript
-
-DOM manipulation
-
-
-//
-
-MVP reached
-
-Next goal: polish the art design, get some slides and work on the objects' dynamics.
+“Driving to the Night” by Frank Schroeter, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Driving_to_the_Night_by_Frank_Schroeter.ogg), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
