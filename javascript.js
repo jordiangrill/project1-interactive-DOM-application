@@ -1,4 +1,4 @@
-// start screen
+// Implement Start screen
 let gameScreen = document.getElementById("game-area");
 
 gameScreen.classList.add("hidden");
@@ -7,6 +7,7 @@ let finishGame = document.getElementById("finish-game");
 
 finishGame.classList.add("hidden");
 
+// Start Game 
 let startButton = document.getElementById("start-button");
 startButton.addEventListener("click", startGame);
 
@@ -29,7 +30,7 @@ const maximumPlayerSpeed = 4;
 const trackLeftPercent = 16;
 const trackRightPercent = 84;
 const objectGapPercent = 1;
-// Gives each pickup time to leave the track before its sprite is reused.
+// Gives each pickup time to leave the track before its sprite is reused
 const minimumPickupInterval = 1.2;
 
 function startGame() {
@@ -405,7 +406,7 @@ function getFinishMessage(position) {
   if (position <= 10) {
     return "Points finish! You finished P" + position + " - great job!";
   }
-  return "Try again, Mercedes is not happy! You finished P" + position + ".";
+  return "Mercedes is not happy! You finished P" + position + ".";
 }
 
 function checkCollision(player, opponents) {
